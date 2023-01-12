@@ -19,7 +19,7 @@ function randomName(evt) {
         // must be given at least two names to randomise
         if (names.length >= 2) {
             let item = names[Math.floor(Math.random() * names.length)];
-            console.log(`Random name chosen: ${item}`);
+            console.log(`Output secret Santa List: ${item}`);
         } else {
             console.log(`Please enter at least two names`);
         }
