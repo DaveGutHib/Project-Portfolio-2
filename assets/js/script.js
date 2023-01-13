@@ -1,4 +1,4 @@
-document.addEventListener("click", randomName);
+//document.getElementById("click", randomName);
 
 var names = [];
 let pairs = [];
@@ -15,12 +15,12 @@ function reveal() {
     revealCount = revealCount + 1;
     
     g = document.createElement('div');
-    g.setAttribute("id", "gifter"+revealCount);
+    g.setAttribute("id", "gifter"+(revealCount));
     g.innerText = person.Giftee;
     document.getElementById("results-container").appendChild(g);
 
     g = document.createElement('div');
-    g.setAttribute("id", "giftee"+revealCount+1);
+    g.setAttribute("id", "giftee"+(revealCount));
     g.innerText = person.Giftee;
     document.getElementById("results-container").appendChild(g);
     
