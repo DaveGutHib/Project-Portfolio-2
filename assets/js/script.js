@@ -3,6 +3,8 @@
 var names = [];
 let pairs = [];
 let revealCount = 0;
+var g;
+
 
 function reveal() {
     console.log("revealcount");
@@ -10,7 +12,7 @@ function reveal() {
     let person = pairs[revealCount];
     console.log("Print names from reveal button");
     console.log(pairs);
-    console.log(person["Gifter"]);
+    console.log(person.Gifter);
     document.getElementById("giftee"+revealCount).innerText = person.Giftee;
     revealCount = revealCount + 1;
     
