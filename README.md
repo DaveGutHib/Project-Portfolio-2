@@ -2,7 +2,7 @@
 
 Choosing website for busy groups
 
-View the live site [here](https://daveguthib.github.io/Project_Portfolio_2/) 
+View the live site [here](https://daveguthib.github.io/Project-Portfolio-2/) 
 
 ![Mockup image of website on different devices](https:TBD.PNG)
 
