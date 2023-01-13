@@ -10,7 +10,7 @@ function reveal() {
     let person = pairs[revealCount];
     console.log("Print names from reveal button");
     console.log(pairs);
-    console.log(person["Gifter"])
+    console.log(person["Gifter"]);
     document.getElementById("giftee"+revealCount).innerText = person.Giftee;
     revealCount = revealCount + 1;
     
@@ -33,7 +33,7 @@ const shuffle = (randomiser) => {
     }
     return randomiser;
 
-}
+};
 
 function randomName(evt) {
     if (evt.target.id === "randomName") {
@@ -64,7 +64,7 @@ function randomName(evt) {
             }
             return randomiser;
 
-        }
+        };
 
         const randomisedNames = shuffle(names);
 
@@ -74,7 +74,7 @@ function randomName(evt) {
             return {
                 Gifter: name,
                 Giftee: randomisedNames[index + 1] || randomisedNames[0],
-            }
+            };
         });
         let person = pairs[revealCount];
         document.getElementById("gifter"+revealCount).innerText = person.Gifter;
@@ -86,7 +86,7 @@ function randomName(evt) {
     // action for clear button
     if (evt.target.id === "clear") {
         [...document.querySelectorAll("input[type='text']")]
-            .forEach(input => input.id.startsWith("name") && (input.value = ""))
+            .forEach(input => input.id.startsWith("name") && (input.value = ""));
 
     }
 
