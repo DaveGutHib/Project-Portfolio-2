@@ -7,12 +7,12 @@ var g;
 
 
 function reveal() {
-    console.log("revealcount");
-    console.log(revealCount);
+    // console.log("revealcount");
+    // console.log(revealCount);
     let person = pairs[revealCount];
-    console.log("Print names from reveal button");
-    console.log(pairs);
-    console.log(person.Gifter);
+    // console.log("Print names from reveal button");
+    // console.log(pairs);
+    // console.log(person.Gifter);
     document.getElementById("giftee"+revealCount).innerText = person.Giftee;
     revealCount = revealCount + 1;
     
@@ -47,14 +47,14 @@ function randomName(evt) {
             .map(input => input.value);
         // map to values only
         console.clear();
-        console.log(names);
+        // console.log(names);
 
         // must be given at least two names to randomise
         if (names.length >= 2) {
             let item = names[Math.floor(Math.random() * names.length)];
-            console.log(`Output secret Santa List: ${item}`);
+           // console.log(`Output secret Santa List: ${item}`);
         } else {
-            console.log(`Please enter at least two names`);
+            innerText(`Please enter at least two names`);
         }
 
         //Shuffling the order of the names in the array
@@ -81,8 +81,8 @@ function randomName(evt) {
         let person = pairs[revealCount];
         document.getElementById("gifter"+revealCount).innerText = person.Gifter;
         document.getElementById("reveal-btn").addEventListener("click", reveal);
-        console.log(pairs);
-	console.log(person.Gifter);
+    //     console.log(pairs);
+	// console.log(person.Gifter);
 
     }
     // action for clear button
