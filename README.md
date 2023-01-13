@@ -43,6 +43,12 @@ Balsamic wireframes for site design
 
 All of the main HTML pages had their code validated on the W3C HTML checker
 
+In order to speedily and easily populate the text fields with full names, I wrote a script in Keepass, an open source password manager software.
+
+It runs a script which enters 12 pre-written names, and presses tab in between them
+
+![W3C Validation of Home page](/assets/images/Gif-of-automated-text-field-entry.gif)
+
 ### Home Page
 ![W3C Validation of Home page](https://TBD.PNG)
 
