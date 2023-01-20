@@ -27,7 +27,7 @@ View the live site [here](https://daveguthib.github.io/Project-Portfolio-2/)
 - Additional level of adding children to list, who will only be giftees, and never gifters
 
 ## Design
-
+---
 Before coding commenced the assumed structure of the code was plotted out in a more ambitious way than the final design. At this point in the planning an additional feature of allowing a second group of giftees to be added who were children of the gifters. 
 
 ![Code logic on paper ](assets/images/paper-planning-document-logic.jpg)
@@ -45,7 +45,7 @@ Also featured is a to-do list at this point in the project.
 
 
 ## Testing
-
+---
 At the very start of the project, rather than code the full array and secret santa output, in order to test the connectivity between the textboxes and the javascript, it was coded to simply return one random name from the names entered. This is what that looked like.
 
 ![Prototype random name picker](/assets/images/secret-santa-picker-name-field-filled-out.png)
