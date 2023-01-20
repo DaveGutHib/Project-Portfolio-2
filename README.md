@@ -4,15 +4,16 @@ Choosing website for busy groups
 
 View the live site [here](https://daveguthib.github.io/Project-Portfolio-2/) 
 
-![Mockup image of website on different devices](https:TBD.PNG)
+![Mockup image of website on different devices](/assets/images/mockup.PNG)
 
 
 ## Features
 ---
 
 ### Navigation Menu
-- Website will accept a list of names into textboxes, randomise them, assign each gifter a giftee,
+- Website will accept a list of names into textboxes, randomise them, assign each gifter a giftee
 - Will allow easy navigation between all the parts of the website on devices of any size.
+- Reveal button for after the results have been calculated to add some "theatre" to the revealing
 
 
 ## Index page
@@ -37,6 +38,10 @@ Balsamic wireframes for site design
 
 ![Balsamic Wireframes](https://TBD.png)
 
+![Code planned on paper ](assets/images/paper-planning-document-logic.jpg)
+
+![Code planned on paper ](assets/images/paper-planning-document-to-do-list.jpg)
+
 
 
 ## Testing
@@ -47,7 +52,7 @@ In order to speedily and easily populate the text fields with full names, I wrot
 
 It runs a script which enters 12 pre-written names, and presses tab in between them
 
-![W3C Validation of Home page](/assets/images/Gif-of-automated-text-field-entry.gif)
+![W3C Validation of Home page](/assets/images/gif-of-automated-text-field-entry.gif)
 
 ### Home Page
 ![W3C Validation of Home page](https://TBD.PNG)
