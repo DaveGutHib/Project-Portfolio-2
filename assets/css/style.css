@@ -7,23 +7,19 @@ body {
     background-color: #FF7276;
 }
 
-/* .left {
-    width: 50%;
-    height: 100vh;
-    background-color: green;
-    text-align: right;
-    color: white;
+[id^=gifter]{
+    text-align: left;
+
 }
 
-.right {
-    width: 50%;
-    color: green;
-    height: 100vh;
-} */
+[id^=giftee] {
+    text-align: right;
+} 
 
 
 #results-container{
     display: flex;
     flex-direction: column;
     width: 50%;
+
 } 
